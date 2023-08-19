@@ -8,7 +8,7 @@ exports.connect = () => {
     })
     .then(()=>console.log("DB connected"))
     .catch((err)=>{
-        console.log("Error occured while connectiong to DB");
+        console.log("Error occured while connectiong to DB")
         console.log(`Error: ${err}`);
     })
 }

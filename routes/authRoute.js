@@ -2,7 +2,8 @@ const { signUp, generateOTP } = require('../controllers/authController');
 
 const router = require('express')();
 
-router.post('/signup', signUp);
-router.post("/generate-otp", generateOTP);
+//routing
+//register ,method post
+ router.post("/register")
 
 module.exports = router
