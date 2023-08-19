@@ -3,6 +3,6 @@ const router = express.Router();
 
 //routing
 //register ,method post
- router.post("/register")
+ router.post("/signup",)
 
 //module.exports = ro
